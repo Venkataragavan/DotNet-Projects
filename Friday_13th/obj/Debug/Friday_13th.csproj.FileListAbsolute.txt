@@ -1,0 +1,6 @@
+c:\users\venkataragavan c\documents\visual studio 2015\Projects\Friday_13th\Friday_13th\bin\Debug\Friday_13th.exe.config
+c:\users\venkataragavan c\documents\visual studio 2015\Projects\Friday_13th\Friday_13th\obj\Debug\Friday_13th.csprojResolveAssemblyReference.cache
+c:\users\venkataragavan c\documents\visual studio 2015\Projects\Friday_13th\Friday_13th\bin\Debug\Friday_13th.exe
+c:\users\venkataragavan c\documents\visual studio 2015\Projects\Friday_13th\Friday_13th\bin\Debug\Friday_13th.pdb
+c:\users\venkataragavan c\documents\visual studio 2015\Projects\Friday_13th\Friday_13th\obj\Debug\Friday_13th.exe
+c:\users\venkataragavan c\documents\visual studio 2015\Projects\Friday_13th\Friday_13th\obj\Debug\Friday_13th.pdb

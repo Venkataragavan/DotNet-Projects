@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="prjClinic.Master" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Stylesheet1.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        
+        <div id="header" align="right">
+        <img src="images/az%20logo.jpeg" style="height: 102px; width: 357px; margin-top: 7px;" align="left" vspace="50px"/>
+        &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="images/az logo.jpeg" alt="logo" /> &nbsp;&nbsp;<br />
+            <br />&nbsp;        
+        <asp:Button ID="btnHome" runat="server" Text="Home" Font-Names="Book Antiqua" ForeColor="LightSeaGreen" Font-Size="XX-Large" onclick="btnHome_Click"/> 
+        <asp:Button ID="btnLoginSignup" runat="server" Text="Login/SignUp" Font-Names="Book Antiqua" ForeColor="LightSeaGreen" Font-Size="XX-Large"
+                   onclick="btnLoginSignup_Click" />     
+         <asp:Button ID="btnLogOut" runat="server" Text="Log Out" Width="177px" Font-Names="Book Antiqua" ForeColor="LightSeaGreen" Font-Size="XX-Large"
+                   onclick="btnLogOut_Click" />              
+        <asp:Button ID="btnAboutUs" runat="server" Text="About Us" Font-Names="Book Antiqua" ForeColor="LightSeaGreen" Font-Size="XX-Large"
+                   onclick="btnAboutUs_Click" />
+        </div>
+           
+       <!-- <ul>
+        <li><a href="frmAboutUs.aspx" >About us</a></li>
+        <li><a href="frmLogin.aspx">Login/SignUp</a></li>
+        <li><a href="frmHome.aspx">Home</a></li>
+        </ul>     
+        </div>-->
+    
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    
+    <div id="footer" align="center">
+    <h3>Copyright © 2016 CJ ®,Inc.All rights reserved. </h3>
+    </div>
+
+   
+</form>
+</body>
+</html>

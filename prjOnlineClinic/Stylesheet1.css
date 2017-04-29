@@ -1,0 +1,139 @@
+﻿#header
+{ 
+   height:130px;
+   width:100%;
+   background-color:#ffffff;
+   border:solid 5px #b0c4de;
+}
+#middle
+{   
+    background-image:url("/images/pic1.jpg");
+    border:solid 5px white;
+    height:500px; 
+    width:100%;
+    background-attachment:scroll;
+    position:static;
+     
+}
+#ddlArea,#ddlSpeciality
+{
+    padding:50px 100px 500px 200px;
+    margin-left: 0px;
+}
+    
+.Button:hover
+{
+    color:Blue;
+   
+}
+ #lblUserName,#lblPassword
+ {
+     padding:50px 50px 50px 50px;
+ }
+     
+#btnLogin:active
+{
+    background:#facc2e;
+    color:white;        
+ }
+        
+#btnLogin:hover
+{
+    background-color:#ffc0cb;
+    border:solid 5px white;
+}
+#btnSignUp:active
+{
+    background:#facc2e;
+    color:white;  
+}
+#btnSignUp:hover
+{
+    background-color:#ffc0cb;
+    border:solid 5px white;
+}
+        
+#footer
+{
+   height:15%;
+   width:100%;
+   background-color:#ffffff;
+   border:solid 5px #b0c4de;
+   text-align:center;
+   font-family:Book Antiqua;
+   font-size:x-large;
+   color:Gray;
+}
+
+#gvDocDetails
+{
+    border:collapse;
+    width:70%;
+    padding:8px;
+    text-align:left;
+    border-bottom:2px solid #ddd;
+}
+
+#gvDocDetails:hover
+{
+    background-Color:#ffd700;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+li {
+    float: right;
+    font-family:Book Antiqua;
+    font-size:x-large;
+    color:#20b2aa;
+    width:300px;
+} 
+li a{
+    display: inline-block;
+    color: #20b2aa;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color:#20b2aa;
+    Font-Size:"XX-Large";
+    Width:248px;
+    text-align:right;
+}
+
+li a:hover
+{
+    background-color:#f8f8ff;
+}
+
+.BUTTON:hover
+{
+    color:#ffffff;
+    background-color:#0495c9;
+    border-color:#357ebd; /*set the color you want here*/
+}
+.Button:hover
+{
+    color:#fff;
+    background-color:#00b3db;
+    border-color:#285e8e; /*set the color you want here*/
+} 
+
+.aboutus
+{
+    font:italic;
+    color:#20b2aa;
+    font-family:Book Antiqua;
+}
+
+.heading
+{
+    text-align:center;
+    font:Bold;
+    color:#20b2aa;
+    }

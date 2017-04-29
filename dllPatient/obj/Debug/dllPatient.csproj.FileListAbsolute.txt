@@ -1,0 +1,15 @@
+C:\Users\kjtw081\Documents\Visual Studio 2008\Projects\prjClinic\dllPatient\bin\Debug\dllPatient.dll
+C:\Users\kjtw081\Documents\Visual Studio 2008\Projects\prjClinic\dllPatient\bin\Debug\dllPatient.pdb
+C:\Users\kjtw081\Documents\Visual Studio 2008\Projects\prjClinic\dllPatient\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\kjtw081\Documents\Visual Studio 2008\Projects\prjClinic\dllPatient\obj\Debug\dllPatient.dll
+C:\Users\kjtw081\Documents\Visual Studio 2008\Projects\prjClinic\dllPatient\obj\Debug\dllPatient.pdb
+C:\Users\kfgl546\Desktop\prjClinicFinal\prjClinic\dllPatient\bin\Debug\dllPatient.dll
+C:\Users\kfgl546\Desktop\prjClinicFinal\prjClinic\dllPatient\bin\Debug\dllPatient.pdb
+C:\Users\kfgl546\Desktop\prjClinicFinal\prjClinic\dllPatient\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\kfgl546\Desktop\prjClinicFinal\prjClinic\dllPatient\obj\Debug\dllPatient.dll
+C:\Users\kfgl546\Desktop\prjClinicFinal\prjClinic\dllPatient\obj\Debug\dllPatient.pdb
+C:\Users\KZML610\Documents\venkat15oct\prjClinicFinal\prjClinic\dllPatient\bin\Debug\dllPatient.dll
+C:\Users\KZML610\Documents\venkat15oct\prjClinicFinal\prjClinic\dllPatient\bin\Debug\dllPatient.pdb
+C:\Users\KZML610\Documents\venkat15oct\prjClinicFinal\prjClinic\dllPatient\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\KZML610\Documents\venkat15oct\prjClinicFinal\prjClinic\dllPatient\obj\Debug\dllPatient.dll
+C:\Users\KZML610\Documents\venkat15oct\prjClinicFinal\prjClinic\dllPatient\obj\Debug\dllPatient.pdb

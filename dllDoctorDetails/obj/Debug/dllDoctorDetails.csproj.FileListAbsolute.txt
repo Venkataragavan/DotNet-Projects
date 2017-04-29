@@ -1,0 +1,15 @@
+C:\Users\kjtw081\Documents\Visual Studio 2008\Projects\prjClinic\dllDoctorDetails\bin\Debug\dllDoctorDetails.dll
+C:\Users\kjtw081\Documents\Visual Studio 2008\Projects\prjClinic\dllDoctorDetails\bin\Debug\dllDoctorDetails.pdb
+C:\Users\kjtw081\Documents\Visual Studio 2008\Projects\prjClinic\dllDoctorDetails\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\kjtw081\Documents\Visual Studio 2008\Projects\prjClinic\dllDoctorDetails\obj\Debug\dllDoctorDetails.dll
+C:\Users\kjtw081\Documents\Visual Studio 2008\Projects\prjClinic\dllDoctorDetails\obj\Debug\dllDoctorDetails.pdb
+C:\Users\kfgl546\Desktop\prjClinicFinal\prjClinic\dllDoctorDetails\bin\Debug\dllDoctorDetails.dll
+C:\Users\kfgl546\Desktop\prjClinicFinal\prjClinic\dllDoctorDetails\bin\Debug\dllDoctorDetails.pdb
+C:\Users\kfgl546\Desktop\prjClinicFinal\prjClinic\dllDoctorDetails\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\kfgl546\Desktop\prjClinicFinal\prjClinic\dllDoctorDetails\obj\Debug\dllDoctorDetails.dll
+C:\Users\kfgl546\Desktop\prjClinicFinal\prjClinic\dllDoctorDetails\obj\Debug\dllDoctorDetails.pdb
+C:\Users\KZML610\Documents\venkat15oct\prjClinicFinal\prjClinic\dllDoctorDetails\bin\Debug\dllDoctorDetails.dll
+C:\Users\KZML610\Documents\venkat15oct\prjClinicFinal\prjClinic\dllDoctorDetails\bin\Debug\dllDoctorDetails.pdb
+C:\Users\KZML610\Documents\venkat15oct\prjClinicFinal\prjClinic\dllDoctorDetails\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\KZML610\Documents\venkat15oct\prjClinicFinal\prjClinic\dllDoctorDetails\obj\Debug\dllDoctorDetails.dll
+C:\Users\KZML610\Documents\venkat15oct\prjClinicFinal\prjClinic\dllDoctorDetails\obj\Debug\dllDoctorDetails.pdb

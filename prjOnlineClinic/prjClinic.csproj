@@ -1,0 +1,238 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{61CD7EE8-B1BB-4185-BDA3-AEE806F10272}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>prjClinic</RootNamespace>
+    <AssemblyName>prjClinic</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clsAdminClinic.cs" />
+    <Compile Include="clsDocAdmin.cs" />
+    <Compile Include="clsDoctimeAdmin.cs" />
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master.Master.cs">
+      <DependentUpon>Master.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master.Master.designer.cs">
+      <DependentUpon>Master.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="frmHome.aspx.cs">
+      <DependentUpon>frmHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmHome.aspx.designer.cs">
+      <DependentUpon>frmHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.aspx.cs">
+      <DependentUpon>frmLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmLogin.aspx.designer.cs">
+      <DependentUpon>frmLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmSignUp.aspx.cs">
+      <DependentUpon>frmSignUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmSignUp.aspx.designer.cs">
+      <DependentUpon>frmSignUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmDoctorDetails.aspx.cs">
+      <DependentUpon>frmDoctorDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmDoctorDetails.aspx.designer.cs">
+      <DependentUpon>frmDoctorDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmAppointment.aspx.cs">
+      <DependentUpon>frmAppointment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmAppointment.aspx.designer.cs">
+      <DependentUpon>frmAppointment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmAboutUs.aspx.cs">
+      <DependentUpon>frmAboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmAboutUs.aspx.designer.cs">
+      <DependentUpon>frmAboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmErrorPage.aspx.cs">
+      <DependentUpon>frmErrorPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmErrorPage.aspx.designer.cs">
+      <DependentUpon>frmErrorPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdminPage.aspx.cs">
+      <DependentUpon>frmAdminPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmAdminPage.aspx.designer.cs">
+      <DependentUpon>frmAdminPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmClinicAdmin.aspx.cs">
+      <DependentUpon>frmClinicAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmClinicAdmin.aspx.designer.cs">
+      <DependentUpon>frmClinicAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmDocAdmin.aspx.cs">
+      <DependentUpon>frmDocAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmDocAdmin.aspx.designer.cs">
+      <DependentUpon>frmDocAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmDoctimeAdmin.aspx.cs">
+      <DependentUpon>frmDoctimeAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmDoctimeAdmin.aspx.designer.cs">
+      <DependentUpon>frmDoctimeAdmin.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bootstrap.css" />
+    <Content Include="Images\1.jpg" />
+    <Content Include="Images\2.jpg" />
+    <Content Include="Images\4.jpg" />
+    <Content Include="Images\5.png" />
+    <Content Include="Images\3.jpg" />
+    <Content Include="Images\az logo.jpeg" />
+    <Content Include="Master.Master" />
+    <Content Include="frmHome.aspx" />
+    <Content Include="Stylesheet1.css" />
+    <Content Include="frmLogin.aspx" />
+    <Content Include="frmSignUp.aspx" />
+    <Content Include="frmDoctorDetails.aspx" />
+    <Content Include="frmAppointment.aspx" />
+    <Content Include="frmAboutUs.aspx" />
+    <Content Include="frmErrorPage.aspx" />
+    <Content Include="frmAdminPage.aspx" />
+    <Content Include="frmClinicAdmin.aspx" />
+    <Content Include="frmDocAdmin.aspx" />
+    <Content Include="frmDoctimeAdmin.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\dllAppointment\dllAppointment.csproj">
+      <Project>{D970C078-FD0F-41CE-BE8A-1480AA00FAF2}</Project>
+      <Name>dllAppointment</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\dllClinic\dllClinic.csproj">
+      <Project>{CAF4E515-612D-4CE9-AEE8-B3F3529836AF}</Project>
+      <Name>dllClinic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\dllDoctorDetails\dllDoctorDetails.csproj">
+      <Project>{97126DCD-2462-42AC-97D5-2E566BA216A0}</Project>
+      <Name>dllDoctorDetails</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\dllDoctorTimings\dllDoctorTimings.csproj">
+      <Project>{E0FD2ED8-DBA5-46E3-9E22-DEBC1A01C22F}</Project>
+      <Name>dllDoctorTimings</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\dllOperations\dllOperations.csproj">
+      <Project>{B72F3BD5-245B-40E6-9B78-138D71680A49}</Project>
+      <Name>dllOperations</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\dllPatient\dllPatient.csproj">
+      <Project>{FF445136-0433-4241-93B9-E08BB6DCC7ED}</Project>
+      <Name>dllPatient</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bootstrap.min.css.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>5314</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

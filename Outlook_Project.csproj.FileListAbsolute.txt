@@ -1,0 +1,7 @@
+C:\C# fiiles\Outlook Project\Outlook_Project\Outlook_Project\bin\Debug\Outlook_Project.exe.config
+C:\C# fiiles\Outlook Project\Outlook_Project\Outlook_Project\bin\Debug\Outlook_Project.exe
+C:\C# fiiles\Outlook Project\Outlook_Project\Outlook_Project\bin\Debug\Outlook_Project.pdb
+C:\C# fiiles\Outlook Project\Outlook_Project\Outlook_Project\obj\Debug\Outlook_Project.csprojResolveAssemblyReference.cache
+C:\C# fiiles\Outlook Project\Outlook_Project\Outlook_Project\obj\Debug\Outlook_Project.csproj.CoreCompileInputs.cache
+C:\C# fiiles\Outlook Project\Outlook_Project\Outlook_Project\obj\Debug\Outlook_Project.exe
+C:\C# fiiles\Outlook Project\Outlook_Project\Outlook_Project\obj\Debug\Outlook_Project.pdb
